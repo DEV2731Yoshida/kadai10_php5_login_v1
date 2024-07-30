@@ -1,0 +1,35 @@
+
+.jumbotron {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset div {
+    margin-bottom: 20px;
+}
+
+fieldset label {
+    display: block;
+}
+
+fieldset input[type="text"],
+fieldset textarea {
+    width: 100%;
+    margin-top: 5px;
+}
+
+fieldset input[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #4285f4;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+fieldset input[type="submit"]:hover {
+    background-color: #357ae8;
+}
